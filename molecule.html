@@ -1,0 +1,34 @@
+<html ng-app='ChemistryTab' ng-controller='appCtrl as appdata'>
+  <head>
+    <link href="fonts.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="styles.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="concise.min.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="concise-utils.min.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="angular.min.js"></script>
+    <script src="main.js"></script>
+    <title ng-bind='appdata.molecule.name'>New Tab</title>
+  </head>
+
+  <body ng-show="appdata.molecule">
+    <div container class="_plm _prm _text-center">
+      <h1 ng-show="appdata.molecule.name" class="_mtm _ts10 name">
+        <b id="molecule" ng-bind="appdata.molecule.name">Loading...</b>
+      </h1>
+
+      <div class="_ms _plm _prm _ts3">
+        <p id="definition">
+          <span ng-bind="appdata.molecule.description">Loading definition...</span>
+        </p>
+      </div>
+
+      <div class="_mtm" ng-if="appdata.molecule.image">
+        <img id="image" alt="Image of {{appdata.molecule.name}}" ng-src="{{'data:image/jpg;base64,' + appdata.molecule.image}}">
+      </div>
+    </div>
+    <footer class="_mtm _ps _ts2 footer" container>
+      <div class="innerFooter _text-center">
+          Created by <a href="https://www.github.com/ciolt">Bryan Agredo</a>.
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "molecule.html"
+   },
+   "description": "A new chemistry molecule and its definition in your browser tabs",
+   "manifest_version": 2,
+   "name": "Molecule a Day",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.4"
+}
