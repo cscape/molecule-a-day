@@ -8,6 +8,7 @@
    "icons": {
        "512": "logo.png"
    },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtjTFHPF9jiZPW9wShIcC32JgCwC7M82LfwmD6A/hsV2fL0Z+aM0rZ+O8JFojUKjaCs7FvDsezSS6kpEmv9lN0mFzoK8YnnWv8t0VM7kiiItOMK2STz/M5RQxT8x8WriHSR4Ec7UAbvwYlxkApJv8j7zYhh+hUTZHud3exJ0gSKK/KIOriQoSIznNvu/Y7jTt1uFCYu/PV/8bjBpP/8str1DIDQnzdp9qWwlP1ZMaFJOkRWho+YOAqQd7QVTiAs3S7tIniAQ7BSZqkjxD1qV4VAYGJFmxWfb8GCptgOgYvB8fgWqzsw5KaFq/f91zfV0G7G+YOdl1mc334bs/WPb0GQIDAQAB",
    "permissions": [ "activeTab" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1.4"
