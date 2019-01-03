@@ -1,4 +1,4 @@
-# New Tab Extension for Chemistry Vocabulary
+# Molecule a Day
 
 A simple Chrome extension that displays a chemistry molecule each time you open a new tab.
 
